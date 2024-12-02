@@ -34,7 +34,7 @@ namespace WinFormsApp5
             newGameItem.Click += button10_Click;
 
             ToolStripMenuItem menuFirstMove = new ToolStripMenuItem("Первый ход");
-            ToolStripMenuItem firstComputerMoveItem = new ToolStripMenuItem("Первым ходит компьютер");
+            ToolStripMenuItem firstComputerMoveItem = new ToolStripMenuItem("Первым ходит компьютер"); 
             firstComputerMoveItem.CheckOnClick = true;
             firstComputerMoveItem.CheckedChanged += (sender, e) =>
             {
