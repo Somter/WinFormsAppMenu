@@ -100,7 +100,7 @@ namespace WinFormsApp5
             }
         }
 
-        public void SetButtonImage(int x, int y, string player, string imagePath)
+        public void SetButtonImage(int x, int y, string player, string imagePath) 
         {
             buttons[x, y].BackgroundImage = Image.FromFile(imagePath);
             buttons[x, y].BackgroundImageLayout = ImageLayout.Stretch;
