@@ -14,13 +14,13 @@ namespace WinFormsApp5
             this.MinimizeBox = false;
 
             var model = new GameModel();
-            _presenter = new GamePresenter(model, this);
+            _presenter = new GamePresenter(model, this); 
 
             InitializeGameField();
             InitializeMenu();
         }
-        private void Form1_Load(object sender, EventArgs e) { }
-        private void InitializeGameField()
+        private void Form1_Load(object sender, EventArgs e) { } 
+        private void InitializeGameField() 
         {
             buttons[0, 0] = button1;
             buttons[0, 1] = button2;
